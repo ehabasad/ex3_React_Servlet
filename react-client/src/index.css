@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.game-container {
+  /* or */
+  background-color: #f0f0f0;
+}
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Game container */
+.game-container {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fvmsoft-bg.com%2Four-products%2Fbulls-and-cows%2F&psig=AOvVaw0JGQFaZ44GrzkImkXqI0kz&ust=1683042885556000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjVvby91P4CFQAAAAAdAAAAABAJ');
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+
+
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Game title */
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+/* Divider line */
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Form */
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 18px;
+}
+
+form input[type="text"] {
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button[type="submit"] {
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Alert */
+.alert {
+  background-color: #ffe6e6;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Bulls and cows count */
+.bulls-cows-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bulls-cows-count span {
+  font-size: 18px;
+}
+
+.bulls-cows-count .bulls {
+  color: #ff6666;
+}
+
+.bulls-cows-count .cows {
+  color: #6699cc;
+}
+
+/* History */
+.history {
+  margin-bottom: 20px;
+}
+
+.history h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.history table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history th,
+.history td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.history th {
+  background-color: #f2f2f2;
+  font-size: 18px;
+}
+
+.history td.guess {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* High scores */
+.high-scores {
+  margin-bottom: 20px;
+}
+
+.high-scores h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.high-scores table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.high-scores th,
+.high-scores td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.high-scores th {
+  background-color: #f2f2f2;
+  font-size: 18px;
+}
+
+.high-scores td.score {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.history {
+  margin: 20px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
